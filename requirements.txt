@@ -5,4 +5,4 @@ PyPDF2==3.0.1
 python-dotenv==1.0.1
 pyyaml==6.0.2
 streamlit
-PyMuPDF==1.26.3
+
