@@ -9,8 +9,8 @@ from litellm import completion
 load_dotenv()
 
 MODEL_NAME = "cohere/command-r-plus-08-2024"
-PDF_FILE = r"Pdf\Ordinance_11PhD.pdf"
-JSON_FILE = r"results\Ordinance_11PhD_structure.json"
+PDF_FILE = r"Pdf/Ordinance_11PhD.pdf"
+JSON_FILE = r"results/Ordinance_11PhD_structure.json"
 
 st.set_page_config(page_title="AI Assistant - RGPV", page_icon="🎓", layout="centered")
 

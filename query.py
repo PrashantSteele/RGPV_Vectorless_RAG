@@ -72,8 +72,8 @@ def query_document(pdf_path, json_path, question):
     print(final_response.choices[0].message.content)
 
 if __name__ == "__main__":
-    pdf_file = r"Pdf\Ordinance_11PhD.pdf"
-    json_file = r"results\Ordinance_11PhD_structure.json"
+    pdf_file = r"Pdf/Ordinance_11PhD.pdf"
+    json_file = r"results/Ordinance_11PhD_structure.json"
     
     # Try asking a question!
     user_question = input("What is your question about the PhD Ordinance?: ")
